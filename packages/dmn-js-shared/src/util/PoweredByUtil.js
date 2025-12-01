@@ -24,7 +24,7 @@ var BPMNIO_IMG = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14.02 5.5
  * @param {Element} container
  */
 export function addProjectLogo(container) {
-  var linkMarkup =
+  /*var linkMarkup =
     '<a href="http://bpmn.io" ' +
        'target="_blank" ' +
        'class="bjs-powered-by" ' +
@@ -41,7 +41,7 @@ export function addProjectLogo(container) {
     open();
 
     event.preventDefault();
-  });
+  });*/
 }
 
 export class PoweredByComponent extends Component {
